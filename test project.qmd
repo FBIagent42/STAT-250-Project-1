@@ -9,7 +9,9 @@ editor: visual
 ```{r}
 #| label: setup
 #| echo: false
-library(knitr)
 options(width = 78) # This makes sure output does not go off edge of pdf
+comma <- function(x, ...) format(x, big.mark = ",", ...)
 
 ```
+
+
