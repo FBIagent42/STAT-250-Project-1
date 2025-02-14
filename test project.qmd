@@ -1,28 +1,15 @@
 ---
-title: "Untitled"
+title: "STAT 250 Project 1"
+author: "Corbin Christiansen"
+date: "`r Sys.Date()`"
 format: html
 editor: visual
 ---
 
-## Quarto
-
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
-
-## Running Code
-
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
-
 ```{r}
-1 + 1
-```
-
-You can add options to executable code like this
-
-```{r}
+#| label: setup
 #| echo: false
-2 * 2
+library(knitr)
+options(width = 78) # This makes sure output does not go off edge of pdf
+
 ```
-
-The `echo: false` option disables the printing of code (only output is displayed).
-
-;ladsk;jf;olawejiofjase;
